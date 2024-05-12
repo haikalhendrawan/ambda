@@ -1,11 +1,20 @@
 import pool from "../config/db";
 
 class Event {
-
   async getEvents() {
     try{
       const q = "SELECT * FROM event";
       const result = await pool.query(q);
+      return result.rows;
+    }catch(err){
+      throw err
+    }
+  }
+
+  async getEventById(id: string){
+    try{
+      const q = "SELECT * FROM event WHERE id = $1";
+      const result = await pool.query(q, [id]);
       return result.rows;
     }catch(err){
       throw err
@@ -32,10 +41,21 @@ class Event {
     }
   }
 
-  async editEventStatus(id: string) {
+  async editEventStatus(id: string, updateTime: string) {
     try{
-      const q = "UPDATE event SET status=$1 WHERE id = $2 RETURNING *";
-      const result = await pool.query(q, [1, id]);
+      const q = "UPDATE event SET status=$1, updated_at = $2, file = $3 WHERE id = $4 RETURNING *";
+      const fileName = `attendance_${id}.pdf`;
+      const result = await pool.query(q, [1, updateTime, fileName, id]);
+      return result.rows;
+    }catch(err){
+      throw err
+    }
+  }
+
+  async deleteEvent(id: string) {
+    try{
+      const q = "DELETE FROM event WHERE id = $1 RETURNING *";
+      const result = await pool.query(q, [id]);
       return result.rows;
     }catch(err){
       throw err

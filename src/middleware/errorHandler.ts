@@ -1,4 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
+import logger from '../config/logger';
 
 interface ErrorDetail extends Error {
   status?: number;
@@ -12,6 +13,13 @@ export default function errorHandler(err: ErrorDetail, req: Request, res: Respon
   const errorMessage = err.message || 'Internal Server Error';
   const errorDetail = err.detail || null;
   const errorStack = err.stack || null;
+
+  logger.error({
+    success: false,
+    message: errorMessage,
+    detail: errorDetail,
+    stack: errorStack
+  })
 
   return res.status(errorStatus).json({
       success: false,

@@ -1,30 +1,29 @@
 import express, { Express, Request, Response } from "express";
-import dotenv from "dotenv";
-import cors from "cors";
-import cookieParser from "cookie-parser";
+import "dotenv/config";
 import path from "path";
+//middlewares
+import useCors from "./middleware/useCors";
+import rateLimiter from "./middleware/rateLimit";
+import cookieParser from "cookie-parser";
+import errorHandler from './middleware/errorHandler';
+import notFoundHandler from "./middleware/notFoundHandler";
 //routes
 import eventRoute from "./routes/eventRoute";
-import errorHandler from './middleware/errorHandler';
-
-dotenv.config();
+import attendanceRoute from "./routes/attendanceRoute";
 
 const app: Express = express();
 const port = process.env.PORT || 3000;
 
-app.use(cors({
-  origin: process.env.CLIENT_URL,
-  credentials: true
-}));
+
 app.use(express.json());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'uploads')));
+app.use(useCors());
+app.use(rateLimiter);
 app.use(eventRoute);
+app.use(attendanceRoute);
+app.use(notFoundHandler);
 app.use(errorHandler);
-
-app.get("/", async(req: Request, res: Response) => {
-  res.status(200).json({ message: "Hello World!" });
-});
 
 app.listen(port, () => {
   console.log(`[server]: Server is running at http://localhost:${port}`);
