@@ -26,7 +26,7 @@ const getTodayEvent = async(req: Request, res: Response, next: NextFunction) => 
   try {
     const result = await event.getEvents();
     const today = new Date().toISOString().split("T")[0];
-    const todayEvents = result.filter((item) => dayjs(item.date).format('YYYY-MM-DD') === today);
+    const todayEvents = result.filter((item) => dayjs(item.date).format('YYYY-MM-DD') === today && item.status!==1);
     res.status(200).json({sucess: true, message: 'Get Event Success', rows: todayEvents});
   }catch(err) {
     next(err);

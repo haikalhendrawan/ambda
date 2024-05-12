@@ -3,7 +3,7 @@ import pool from "../config/db";
 class Event {
   async getEvents() {
     try{
-      const q = "SELECT * FROM event";
+      const q = "SELECT * FROM event ORDER BY created_at DESC";
       const result = await pool.query(q);
       return result.rows;
     }catch(err){

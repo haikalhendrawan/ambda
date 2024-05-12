@@ -14,7 +14,7 @@ import attendanceRoute from "./routes/attendanceRoute";
 const app: Express = express();
 const port = process.env.PORT || 3000;
 
-
+app.set('trust proxy', true);
 app.use(express.json());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'uploads')));
