@@ -1,5 +1,5 @@
 import {useState, useEffect} from "react";
-import { Document, Page, Text, View, Image} from '@react-pdf/renderer';
+import { Document, Page, Text, View, Image, Font} from '@react-pdf/renderer';
 import styles from "./styles";
 import { AttendanceEventBody, TargetEventType } from "./types";
 import path from 'path';
@@ -9,6 +9,8 @@ interface AttendanceReportProps {
   attendance: AttendanceEventBody[] | [],
   event: TargetEventType[] | [],
 };
+
+Font.registerHyphenationCallback(word => [word]);
 // -------------------------------------------------------------
 export default function AttendanceReport({attendance, event}: AttendanceReportProps) {
   const currentDate = new Date();
@@ -34,7 +36,7 @@ export default function AttendanceReport({attendance, event}: AttendanceReportPr
                   <Text style={{fontFamily: 'Helvetica-Bold', textAlign:'center', fontSize: 14, marginBottom:3}}> {PDF_TITLE} </Text>
                   <Text style={{fontSize: 12, textAlign:'center',marginBottom:3}}> {PDF_TITLE_DATE} </Text>
               </View>
-              <Image style={{position:'absolute', right:0, top:0, width: 65, height: 65}} src={`http://localhost:8000/qr/qr_${event[0].id}.png`}/>
+              <Image style={{position: 'absolute', right: 0, alignSelf: 'center', width: 65, height: 65}} src={`${process.env.API_URL}/qr/qr_${event[0].id}.png`}/>
           </View>
 
 

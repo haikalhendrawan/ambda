@@ -62,7 +62,7 @@ const closeEvent = async(req: Request, res: Response, next: NextFunction) => {
     const rows = await attendance.getAttendanceByEvent(id);
     const targetEvent = await event.getEventById(id);
 
-    const url =`http://localhost:8000/attendance/attendance_${id}`;
+    const url =`${process.env.API_URL}/attendance/attendance/attendance_${id}`;
     const logoPath = path.resolve(__dirname+`/../uploads/logo/ambo_logo.png` );
     const outputPath = path.resolve(__dirname+`/../uploads/qr/qr_${id}.png` );
 

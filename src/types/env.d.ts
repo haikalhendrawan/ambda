@@ -8,5 +8,7 @@ declare namespace NodeJS {
     readonly PGDATABASE: string;
     readonly PGMAXPOOL: string;
     readonly PGTIMEOUT: string;
+
+    readonly APIURL: string
   }
 }
