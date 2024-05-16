@@ -1,6 +1,7 @@
 import express, { Express, Request, Response } from "express";
 import "dotenv/config";
 import path from "path";
+import cors from "cors";
 //middlewares
 import useCors from "./middleware/useCors";
 import rateLimiter from "./middleware/rateLimit";
@@ -14,12 +15,14 @@ import attendanceRoute from "./routes/attendanceRoute";
 const app: Express = express();
 const port = process.env.PORT || 3000;
 
-app.set('trust proxy', true);
+// app.set('trust proxy', true);
 app.use(express.json());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'uploads')));
-app.use(useCors());
-app.use(rateLimiter);
+app.use(cors({
+  origin: "*",
+}));
+// app.use(rateLimiter);
 app.use(eventRoute);
 app.use(attendanceRoute);
 app.use(notFoundHandler);
