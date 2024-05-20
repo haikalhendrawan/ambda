@@ -26,7 +26,14 @@ const getTodayEvent = async(req: Request, res: Response, next: NextFunction) => 
   try {
     const result = await event.getEvents();
     const today = new Date().toISOString().split("T")[0];
-    const todayEvents = result.filter((item) => dayjs(item.date).format('YYYY-MM-DD') === today && item.status!==1);
+    const yesterday = new Date(new Date().setDate(new Date().getDate() - 1)).toISOString().split("T")[0];
+    const tomorrow = new Date(new Date().setDate(new Date().getDate() + 1)).toISOString().split("T")[0];
+    const todayEvents = result.filter((item) => 
+      (dayjs(item.date).format('YYYY-MM-DD') === today
+      || dayjs(item.date).format('YYYY-MM-DD') === yesterday
+      || dayjs(item.date).format('YYYY-MM-DD') === tomorrow) 
+      && item.status!==1
+    );
     res.status(200).json({sucess: true, message: 'Get Event Success', rows: todayEvents});
   }catch(err) {
     next(err);
