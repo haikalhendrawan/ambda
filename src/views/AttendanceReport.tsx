@@ -31,14 +31,13 @@ export default function AttendanceReport({attendance, event}: AttendanceReportPr
       <Document>
         <Page size="A4" style={styles.page} orientation="portrait">
           <View style={styles.header} fixed>
-              <View style={{flexDirection:'column', justifyContent:'center', alignItems:'center', paddingTop:15, paddingBottom:15}}>
-                  <Text style={{fontFamily: 'Helvetica-Bold', textAlign:'center', fontSize: 14, marginBottom:3}}> Daftar Hadir </Text>
-                  <Text style={{fontFamily: 'Helvetica-Bold', textAlign:'center', fontSize: 14, marginBottom:3}}> {PDF_TITLE} </Text>
-                  <Text style={{fontSize: 12, textAlign:'center',marginBottom:3}}> {PDF_TITLE_DATE} </Text>
-              </View>
-              <Image style={{position: 'absolute', right: 0, alignSelf: 'center', width: 65, height: 65}} src={`${process.env.API_URL}/qr/qr_${event[0].id}.png`}/>
+            <View style={{flexDirection:'column', justifyContent:'center', alignItems:'center', paddingTop:15, paddingBottom:15, paddingRight:70, paddingLeft:70}} wrap={false}>
+              <Text style={{fontFamily: 'Helvetica-Bold', textAlign:'center', fontSize: 14, marginBottom:3}}> Daftar Hadir </Text>
+              <Text style={{fontFamily: 'Helvetica-Bold', textAlign:'center', fontSize: 14, marginBottom:3}}> {PDF_TITLE} </Text>
+              <Text style={{fontSize: 12, textAlign:'center',marginBottom:3}}> {PDF_TITLE_DATE} </Text>
+            </View>
+            <Image style={{position: 'absolute', right: 0, alignSelf: 'center', width: 65, height: 65}} src={`${process.env.API_URL}/qr/qr_${event[0].id}.png`}/>
           </View>
-
 
           <View style={styles.table} > 
               <View style={styles.tableRow} fixed> 

@@ -8,6 +8,8 @@ import GeneratePDF from '../views/Generate';
 import QRCode from 'qrcode';
 import Jimp from 'jimp';
 import path from 'path';
+import fs from 'fs';
+import {createCanvas, loadImage} from 'canvas';
 
 dayjs.extend(timezone);
 dayjs.tz.setDefault('Asia/Jakarta');
@@ -73,7 +75,8 @@ const closeEvent = async(req: Request, res: Response, next: NextFunction) => {
     const logoPath = path.resolve(__dirname+`/../uploads/logo/ambo_logo.png` );
     const outputPath = path.resolve(__dirname+`/../uploads/qr/qr_${id}.png` );
 
-    await generateQRCodeWithLogo(url, logoPath, outputPath);
+    // await generateQRCodeWithLogo(url, logoPath, outputPath);
+    await generateCanvasQrCode(url, logoPath, 300, 60, outputPath);
     await GeneratePDF(rows, id, targetEvent);  
     const updateTime = new Date(Date.now()).toISOString();
     const result = await event.editEventStatus(id, updateTime);
@@ -120,4 +123,31 @@ async function generateQRCodeWithLogo(text: string, logoPath: string, outputPath
   } catch (err) {
       console.error('Error:', err);
   }
-}
+};
+
+
+async function generateCanvasQrCode(dataForQRcode: string, center_image: string, width: number, cwidth: number, outputPath: string) {
+  const canvas = createCanvas(width, width);
+  await QRCode.toCanvas(
+    canvas,
+    dataForQRcode,
+    {
+      errorCorrectionLevel: "H",
+      margin: 1,
+      color: {
+        dark: "#000000",
+        light: "#ffffff",
+      },
+    }
+  );
+
+  const ctx = canvas.getContext("2d");
+  const img = await loadImage(center_image);
+  const center = (width - cwidth - cwidth - 30) / 2;
+  ctx.drawImage(img, center, center, cwidth, cwidth);
+  const base64Image = canvas.toDataURL("image/png");
+  const base64Data = base64Image.replace(/^data:image\/png;base64,/, "");
+  fs.writeFileSync(outputPath, base64Data, 'base64');
+
+  console.log(`QR code with logo saved to: ${outputPath}`);
+};
