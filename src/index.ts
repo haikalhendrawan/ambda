@@ -11,6 +11,7 @@ import notFoundHandler from "./middleware/notFoundHandler";
 //routes
 import eventRoute from "./routes/eventRoute";
 import attendanceRoute from "./routes/attendanceRoute";
+import employeeRoute from "./routes/employeeRoute";
 
 const app: Express = express();
 const port = process.env.PORT || 3000;
@@ -25,6 +26,7 @@ app.use(cors({
 // app.use(rateLimiter);
 app.use(eventRoute);
 app.use(attendanceRoute);
+app.use(employeeRoute);
 app.use(notFoundHandler);
 app.use(errorHandler);
 

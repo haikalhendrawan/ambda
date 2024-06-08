@@ -82,3 +82,62 @@
 2024-05-28 00:51:55 error: Endpoint Not Found
 2024-05-28 00:51:55 error: invalid input syntax for type uuid: ""
 2024-05-28 00:51:55 error: invalid input syntax for type uuid: ""
+2024-06-08 11:58:40 info: logger success
+2024-06-08 11:58:40 error: Endpoint Not Found
+2024-06-08 11:58:40 info: logger success
+2024-06-08 11:58:40 error: Endpoint Not Found
+2024-06-08 11:59:04 error: ENOENT: no such file or directory, open './Data_pegawai_Mei_2024.xlsx'
+2024-06-08 11:59:04 info: logger success
+2024-06-08 11:59:04 error: Endpoint Not Found
+2024-06-08 11:59:33 error: ENOENT: no such file or directory, open '../Data_pegawai_Mei_2024.xlsx'
+2024-06-08 11:59:33 info: logger success
+2024-06-08 11:59:33 error: Endpoint Not Found
+2024-06-08 12:00:29 error: ENOENT: no such file or directory, open '../Data_pegawai_Mei_2024.xlsx'
+2024-06-08 12:00:29 info: logger success
+2024-06-08 12:00:29 error: Endpoint Not Found
+2024-06-08 12:02:31 error: ENOENT: no such file or directory, open '../Data_pegawai_Mei_2024.xlsx'
+2024-06-08 12:02:31 info: logger success
+2024-06-08 12:02:31 error: Endpoint Not Found
+2024-06-08 12:02:33 error: ENOENT: no such file or directory, open '../Data_pegawai_Mei_2024.xlsx'
+2024-06-08 12:02:33 info: logger success
+2024-06-08 12:02:33 error: Endpoint Not Found
+2024-06-08 12:03:08 error: ENOENT: no such file or directory, open '../Data_pegawai_Mei_2024.xlsx'
+2024-06-08 12:03:08 info: logger success
+2024-06-08 12:03:08 error: Endpoint Not Found
+2024-06-08 12:03:10 error: ENOENT: no such file or directory, open '../Data_pegawai_Mei_2024.xlsx'
+2024-06-08 12:03:10 info: logger success
+2024-06-08 12:03:10 error: Endpoint Not Found
+2024-06-08 12:06:19 info: logger success
+2024-06-08 12:06:19 error: Endpoint Not Found
+2024-06-08 12:33:44 info: logger success
+2024-06-08 12:33:44 error: Endpoint Not Found
+2024-06-08 12:34:18 info: logger success
+2024-06-08 12:34:18 error: Endpoint Not Found
+2024-06-08 12:56:29 info: logger success
+2024-06-08 12:56:29 error: Endpoint Not Found
+2024-06-08 13:42:04 info: logger success
+2024-06-08 13:42:04 error: Endpoint Not Found
+2024-06-08 14:04:33 info: logger success
+2024-06-08 14:04:33 error: Endpoint Not Found
+2024-06-08 15:34:11 error: password authentication failed for user "ambdaweb_postgres"
+2024-06-08 15:35:58 error: password authentication failed for user "postgress"
+2024-06-08 15:35:58 info: logger success
+2024-06-08 15:35:58 error: Endpoint Not Found
+2024-06-08 15:35:59 error: password authentication failed for user "postgress"
+2024-06-08 15:35:59 info: logger success
+2024-06-08 15:35:59 error: Endpoint Not Found
+2024-06-08 15:36:15 error: password authentication failed for user "postgress"
+2024-06-08 15:36:21 info: logger success
+2024-06-08 15:36:21 error: Endpoint Not Found
+2024-06-08 15:36:28 error: password authentication failed for user "postgress"
+2024-06-08 15:36:28 info: logger success
+2024-06-08 15:36:28 error: Endpoint Not Found
+2024-06-08 15:37:40 error: password authentication failed for user "postgress"
+2024-06-08 15:37:40 info: logger success
+2024-06-08 15:37:40 error: Endpoint Not Found
+2024-06-08 15:38:13 info: logger success
+2024-06-08 15:38:13 error: Endpoint Not Found
+2024-06-08 16:11:08 info: logger success
+2024-06-08 16:11:08 error: Endpoint Not Found
+2024-06-08 16:30:39 error: column "id" does not exist
+2024-06-08 16:31:21 error: column "id" does not exist
