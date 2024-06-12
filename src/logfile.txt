@@ -141,3 +141,200 @@
 2024-06-08 16:11:08 error: Endpoint Not Found
 2024-06-08 16:30:39 error: column "id" does not exist
 2024-06-08 16:31:21 error: column "id" does not exist
+2024-06-12 10:21:33 info: logger success
+2024-06-12 10:21:33 error: Endpoint Not Found
+2024-06-12 10:21:33 info: logger success
+2024-06-12 10:21:33 error: Endpoint Not Found
+2024-06-12 10:29:30 error: Unexpected end of form
+2024-06-12 11:27:25 info: logger success
+2024-06-12 11:27:25 error: Endpoint Not Found
+2024-06-12 11:27:25 info: logger success
+2024-06-12 11:27:25 error: Endpoint Not Found
+2024-06-12 11:27:26 error: invalid input syntax for type uuid: ""
+2024-06-12 11:27:26 error: invalid input syntax for type uuid: ""
+2024-06-12 11:30:41 info: logger success
+2024-06-12 11:30:41 error: Endpoint Not Found
+2024-06-12 11:30:41 info: logger success
+2024-06-12 11:30:41 error: Endpoint Not Found
+2024-06-12 11:30:41 error: invalid input syntax for type uuid: ""
+2024-06-12 11:30:41 error: invalid input syntax for type uuid: ""
+2024-06-12 11:36:10 info: logger success
+2024-06-12 11:36:10 error: Endpoint Not Found
+2024-06-12 11:36:10 info: logger success
+2024-06-12 11:36:10 error: Endpoint Not Found
+2024-06-12 11:36:10 error: invalid input syntax for type uuid: ""
+2024-06-12 11:36:10 error: invalid input syntax for type uuid: ""
+2024-06-12 11:38:22 info: logger success
+2024-06-12 11:38:22 error: Endpoint Not Found
+2024-06-12 11:38:22 info: logger success
+2024-06-12 11:38:22 error: Endpoint Not Found
+2024-06-12 11:38:22 error: invalid input syntax for type uuid: ""
+2024-06-12 11:38:22 error: invalid input syntax for type uuid: ""
+2024-06-12 11:38:32 info: logger success
+2024-06-12 11:38:32 error: Endpoint Not Found
+2024-06-12 11:38:32 info: logger success
+2024-06-12 11:38:32 error: Endpoint Not Found
+2024-06-12 11:38:32 error: invalid input syntax for type uuid: ""
+2024-06-12 11:38:32 error: invalid input syntax for type uuid: ""
+2024-06-12 11:38:42 info: logger success
+2024-06-12 11:38:42 error: Endpoint Not Found
+2024-06-12 11:38:42 info: logger success
+2024-06-12 11:38:42 error: Endpoint Not Found
+2024-06-12 11:38:43 error: invalid input syntax for type uuid: ""
+2024-06-12 11:38:43 error: invalid input syntax for type uuid: ""
+2024-06-12 11:39:18 info: logger success
+2024-06-12 11:39:18 error: Endpoint Not Found
+2024-06-12 11:39:18 info: logger success
+2024-06-12 11:39:18 error: Endpoint Not Found
+2024-06-12 11:39:18 error: invalid input syntax for type uuid: ""
+2024-06-12 11:39:18 error: invalid input syntax for type uuid: ""
+2024-06-12 11:40:07 info: logger success
+2024-06-12 11:40:07 error: Endpoint Not Found
+2024-06-12 11:40:07 info: logger success
+2024-06-12 11:40:07 error: Endpoint Not Found
+2024-06-12 11:40:08 error: invalid input syntax for type uuid: ""
+2024-06-12 11:40:08 error: invalid input syntax for type uuid: ""
+2024-06-12 11:41:44 info: logger success
+2024-06-12 11:41:44 error: Endpoint Not Found
+2024-06-12 11:41:44 info: logger success
+2024-06-12 11:41:44 error: Endpoint Not Found
+2024-06-12 11:41:44 error: invalid input syntax for type uuid: ""
+2024-06-12 11:41:44 error: invalid input syntax for type uuid: ""
+2024-06-12 11:42:46 info: logger success
+2024-06-12 11:42:46 error: Endpoint Not Found
+2024-06-12 11:42:46 info: logger success
+2024-06-12 11:42:46 error: Endpoint Not Found
+2024-06-12 11:42:46 error: invalid input syntax for type uuid: ""
+2024-06-12 11:42:46 error: invalid input syntax for type uuid: ""
+2024-06-12 11:42:54 info: logger success
+2024-06-12 11:42:54 error: Endpoint Not Found
+2024-06-12 11:42:54 info: logger success
+2024-06-12 11:42:54 error: Endpoint Not Found
+2024-06-12 11:42:54 error: invalid input syntax for type uuid: ""
+2024-06-12 11:42:54 error: invalid input syntax for type uuid: ""
+2024-06-12 11:43:35 info: logger success
+2024-06-12 11:43:35 error: Endpoint Not Found
+2024-06-12 11:43:35 info: logger success
+2024-06-12 11:43:35 error: Endpoint Not Found
+2024-06-12 11:43:35 error: invalid input syntax for type uuid: ""
+2024-06-12 11:43:35 error: invalid input syntax for type uuid: ""
+2024-06-12 11:43:51 info: logger success
+2024-06-12 11:43:51 error: Endpoint Not Found
+2024-06-12 11:43:51 info: logger success
+2024-06-12 11:43:51 error: Endpoint Not Found
+2024-06-12 11:43:52 error: invalid input syntax for type uuid: ""
+2024-06-12 11:43:52 error: invalid input syntax for type uuid: ""
+2024-06-12 11:46:16 info: logger success
+2024-06-12 11:46:16 error: Endpoint Not Found
+2024-06-12 11:46:16 info: logger success
+2024-06-12 11:46:16 error: Endpoint Not Found
+2024-06-12 11:46:16 error: invalid input syntax for type uuid: ""
+2024-06-12 11:46:16 error: invalid input syntax for type uuid: ""
+2024-06-12 11:46:39 info: logger success
+2024-06-12 11:46:39 error: Endpoint Not Found
+2024-06-12 11:46:39 info: logger success
+2024-06-12 11:46:39 error: Endpoint Not Found
+2024-06-12 11:46:39 error: invalid input syntax for type uuid: ""
+2024-06-12 11:46:39 error: invalid input syntax for type uuid: ""
+2024-06-12 11:46:46 info: logger success
+2024-06-12 11:46:46 error: Endpoint Not Found
+2024-06-12 11:46:46 info: logger success
+2024-06-12 11:46:46 error: Endpoint Not Found
+2024-06-12 11:46:46 error: invalid input syntax for type uuid: ""
+2024-06-12 11:46:46 error: invalid input syntax for type uuid: ""
+2024-06-12 11:47:07 info: logger success
+2024-06-12 11:47:07 error: Endpoint Not Found
+2024-06-12 11:47:07 info: logger success
+2024-06-12 11:47:07 error: Endpoint Not Found
+2024-06-12 11:47:07 error: invalid input syntax for type uuid: ""
+2024-06-12 11:47:07 error: invalid input syntax for type uuid: ""
+2024-06-12 11:50:22 info: logger success
+2024-06-12 11:50:22 error: Endpoint Not Found
+2024-06-12 11:50:22 info: logger success
+2024-06-12 11:50:22 error: Endpoint Not Found
+2024-06-12 11:50:22 error: invalid input syntax for type uuid: ""
+2024-06-12 11:50:22 error: invalid input syntax for type uuid: ""
+2024-06-12 11:50:46 info: logger success
+2024-06-12 11:50:46 error: Endpoint Not Found
+2024-06-12 11:50:46 info: logger success
+2024-06-12 11:50:46 error: Endpoint Not Found
+2024-06-12 11:50:46 error: invalid input syntax for type uuid: ""
+2024-06-12 11:50:46 error: invalid input syntax for type uuid: ""
+2024-06-12 14:37:59 info: logger success
+2024-06-12 14:37:59 error: Endpoint Not Found
+2024-06-12 14:37:59 info: logger success
+2024-06-12 14:37:59 error: Endpoint Not Found
+2024-06-12 14:37:59 error: invalid input syntax for type uuid: ""
+2024-06-12 14:37:59 error: invalid input syntax for type uuid: ""
+2024-06-12 14:38:05 info: logger success
+2024-06-12 14:38:05 error: Endpoint Not Found
+2024-06-12 14:38:05 info: logger success
+2024-06-12 14:38:05 error: Endpoint Not Found
+2024-06-12 14:38:05 error: invalid input syntax for type uuid: ""
+2024-06-12 14:38:05 error: invalid input syntax for type uuid: ""
+2024-06-12 14:38:32 info: logger success
+2024-06-12 14:38:32 error: Endpoint Not Found
+2024-06-12 14:38:32 info: logger success
+2024-06-12 14:38:32 error: Endpoint Not Found
+2024-06-12 14:38:32 error: invalid input syntax for type uuid: ""
+2024-06-12 14:38:32 error: invalid input syntax for type uuid: ""
+2024-06-12 14:38:46 info: logger success
+2024-06-12 14:38:46 error: Endpoint Not Found
+2024-06-12 14:38:46 info: logger success
+2024-06-12 14:38:46 error: Endpoint Not Found
+2024-06-12 14:38:46 error: invalid input syntax for type uuid: ""
+2024-06-12 14:38:46 error: invalid input syntax for type uuid: ""
+2024-06-12 14:39:13 info: logger success
+2024-06-12 14:39:13 error: Endpoint Not Found
+2024-06-12 14:39:13 info: logger success
+2024-06-12 14:39:13 error: Endpoint Not Found
+2024-06-12 14:39:13 error: invalid input syntax for type uuid: ""
+2024-06-12 14:39:13 error: invalid input syntax for type uuid: ""
+2024-06-12 14:39:24 info: logger success
+2024-06-12 14:39:24 error: Endpoint Not Found
+2024-06-12 14:39:24 info: logger success
+2024-06-12 14:39:24 error: Endpoint Not Found
+2024-06-12 14:39:24 error: invalid input syntax for type uuid: ""
+2024-06-12 14:39:24 error: invalid input syntax for type uuid: ""
+2024-06-12 14:47:57 info: logger success
+2024-06-12 14:47:57 error: Endpoint Not Found
+2024-06-12 14:47:57 info: logger success
+2024-06-12 14:47:57 error: Endpoint Not Found
+2024-06-12 14:47:58 error: invalid input syntax for type uuid: ""
+2024-06-12 14:47:58 error: invalid input syntax for type uuid: ""
+2024-06-12 14:57:20 info: logger success
+2024-06-12 14:57:20 error: Endpoint Not Found
+2024-06-12 14:57:20 info: logger success
+2024-06-12 14:57:20 error: Endpoint Not Found
+2024-06-12 14:57:20 error: invalid input syntax for type uuid: ""
+2024-06-12 14:57:20 error: invalid input syntax for type uuid: ""
+2024-06-12 15:29:13 info: logger success
+2024-06-12 15:29:13 error: Endpoint Not Found
+2024-06-12 15:29:13 info: logger success
+2024-06-12 15:29:13 error: Endpoint Not Found
+2024-06-12 15:29:13 error: invalid input syntax for type uuid: ""
+2024-06-12 15:29:13 error: invalid input syntax for type uuid: ""
+2024-06-12 15:29:19 info: logger success
+2024-06-12 15:29:19 error: Endpoint Not Found
+2024-06-12 15:29:19 info: logger success
+2024-06-12 15:29:19 error: Endpoint Not Found
+2024-06-12 15:29:19 error: invalid input syntax for type uuid: ""
+2024-06-12 15:29:19 error: invalid input syntax for type uuid: ""
+2024-06-12 15:48:39 info: logger success
+2024-06-12 15:48:39 error: Endpoint Not Found
+2024-06-12 15:48:39 info: logger success
+2024-06-12 15:48:39 error: Endpoint Not Found
+2024-06-12 15:48:39 error: invalid input syntax for type uuid: ""
+2024-06-12 15:48:39 error: invalid input syntax for type uuid: ""
+2024-06-12 15:58:53 info: logger success
+2024-06-12 15:58:53 error: Endpoint Not Found
+2024-06-12 15:58:53 info: logger success
+2024-06-12 15:58:53 error: Endpoint Not Found
+2024-06-12 15:58:53 error: invalid input syntax for type uuid: ""
+2024-06-12 15:58:53 error: invalid input syntax for type uuid: ""
+2024-06-12 16:01:31 info: logger success
+2024-06-12 16:01:31 error: Endpoint Not Found
+2024-06-12 16:01:31 info: logger success
+2024-06-12 16:01:31 error: Endpoint Not Found
+2024-06-12 16:01:32 error: invalid input syntax for type uuid: ""
+2024-06-12 16:01:32 error: invalid input syntax for type uuid: ""
