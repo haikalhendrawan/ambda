@@ -19,10 +19,15 @@ const port = process.env.PORT || 3000;
 // app.set('trust proxy', true);
 app.use(express.json());
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'uploads')));
 app.use(cors({
-  origin: "*",
+  origin: '*', 
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS', 
+  allowedHeaders: 'Content-Type,Authorization', 
+  preflightContinue: false,
+  optionsSuccessStatus: 204 
 }));
+app.use(express.static(path.join(__dirname, 'uploads')));
+
 // app.use(rateLimiter);
 app.use(eventRoute);
 app.use(attendanceRoute);
